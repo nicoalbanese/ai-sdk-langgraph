@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/react": "^1.2.12",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.3.1",
+    "@langchain/openai": "^0.5.12",
+    "ai": "^4.3.16",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "zod": "^3.25.61"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
